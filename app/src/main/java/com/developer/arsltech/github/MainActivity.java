@@ -46,7 +46,7 @@ import java.net.URL;
 public class MainActivity extends AppCompatActivity {
 
     WebView webView;
-    private String webUrl = "https://github.com";
+    private String webUrl = "https://iul.ac.in/";
     ProgressBar progressBarWeb;
     ProgressDialog progressDialog;
     RelativeLayout relativeLayout;

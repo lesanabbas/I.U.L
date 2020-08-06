@@ -9,23 +9,23 @@
     tools:context=".SplashActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:src="@drawable/splash_logo"
-        android:scaleType="centerCrop"
-        android:padding="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
         android:layout_marginTop="30dp"
-        />
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/download"
+        android:layout_gravity="center_horizontal"/>
 
     <ProgressBar
-        android:layout_width="220dp"
-        android:layout_height="10dp"
-        android:layout_gravity="center_horizontal"
         style="?android:attr/progressBarStyleHorizontal"
-        android:max="100"
-        android:indeterminate="true"
-        android:progress="0"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="150dp"
-        />
+        android:indeterminate="true"
+        android:max="100"
+        android:progress="0" />
 
 </LinearLayout>
